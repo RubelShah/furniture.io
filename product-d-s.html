@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>furniture</title>
+    <!-- bootstrap-cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- swiper-css -->
+    <link rel="stylesheet" href="./asset/css/swiper-bundle.min.css">
+    <!-- custom-css -->
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <!-- header-section-1 -->
+    <header>
+        <div class="navbar-1">
+        
+                <div class="container navline-1">
+                    <div class="nleft-1">
+                        <span>ship to</span>
+                        <div class="selector">
+                            <div id="selector-field">
+                                <div class="select-text" id="text-area">
+                                    <img src="./asset/imag/af-flag.gif" alt=""  width="20" height="15">
+                                    <span>afganistan</span>
+                                </div>
+                                <span><i class="bi bi-chevron-down"></i></span>
+                            </div>
+                            <ul id="list" class="hide">
+                                <li class="option">
+                                    <img src="./asset/imag/ag-flag.gif" alt="" width="20" height="15">
+                                    <span>argentina</span>
+                                </li>
+                                <li class="option">
+                                    <img src="./asset/imag/bg-flag.gif" alt="" width="20" height="15">
+                                    <span>bangladesh</span>
+                                </li>
+                                <li class="option">
+                                    <img src="./asset/imag/id-flag.gif" alt="" width="20" height="15">
+                                    <span>indonesia</span>
+                                </li>
+                                <li class="option">
+                                    <img src="./asset/imag/in-flag.gif" alt="" width="20" height="15">
+                                    <span>india</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nright-1">
+                        <ul>
+                            <li class="nr-icon">
+                                <span>
+                                    <i class="bi bi-truck"></i>
+                                </span>
+                                <span>trusted shipping</span>
+                            </li>
+                            <li class="nr-icon">
+                                <span>
+                                    <i class="bi bi-arrow-90deg-left"></i>
+                                </span>
+                                <span>easy returns</span>
+                            </li>
+                            <li class="nr-icon">
+                                <span>
+                                    <i class="bi bi-shield-check"></i>
+                                </span>
+
+                                <span>secrue shopping</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="navbar-2">
+            <div class="container">
+                <div class="navline-2">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="./asset/imag/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search-area">
+                        <form action="#" class='nav-form'>
+                            <input type="text" placeholder="what are looking for?" id="search-input" value="">
+                            <span class="search-icon"><i class="bi bi-search"></i></span>
+                        </form>
+                        <div class="search-suggestion">
+                            <li>suggestion-1</li>
+                            <li>suggestion-2</li>
+                            <li>suggestion-3</li>
+                            <li>suggestion-4</li>
+                        </div>
+                    </div>
+                    <div class="nicon-area">
+                        <a href="cart.html">
+                            <span>
+                                <i class="bi bi-bag"></i>
+                                <div class="circle">2</div>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span>
+                                <i class="bi bi-heart"></i>
+                                <div class="circle"></div>
+                            </span>
+                        </a>
+                        
+                    </div>
+                    <!-- mobile-menu -->
+                    <div class="offcanvas-wrapper">
+                        <div class="offcanvas" id="offcanvas">
+                            <div class="offcanvas-header">
+                              <div class="offcanvas-logo">
+                                 <div class="logo">
+                                     <a href="#">
+                                         <img src="./asset/imag/logo.png" alt="">
+                                     </a>
+                                 </div>
+                              </div>
+                              <div class="close-offcanvas">
+                                 <button id="close-btn"><i class="bi bi-x-lg"></i></button>
+                              </div>
+                            </div>
+                            <div class="offcanvas-body">
+                                 <ul class="nav-list offcanvas-list">
+                                     <li>
+                                         <a href="#">
+                                             All categories<span><i class="bi bi-chevron-down"></i></span>
+                                         </a>
+                                         <ul class="drop-down">
+                                             <li><a href="#">drop-down</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                         </ul>
+                                     </li>
+                                     <li><a href="#">What’s new</a></li>
+                                     <li><a href="#">Trending</a></li>
+                                     <li><a href="#">Products</a></li>
+                                     <li><a href="#">Shop</a></li>
+                                 </ul>
+                                 <div class="nac offnac">
+                                     <li>
+                                         <a href="#" class="nac-icon">
+                                             <span><i class="bi bi-person-fill"></i></span>
+                                             <span><i class="bi bi-chevron-down"></i></span>
+                                         </a>
+                                         <a href="#" id="search-box" class="nac-icon">
+                                            <i class="bi bi-search"></i>
+                                         </a>
+                                         <ul class="drop-down">
+                                             <li><a href="#">profile</a></li>
+                                             <li><a href="#">log-out</a></li>
+                                             <li><a href="#">settings</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                         </ul>
+                                     </li>
+                                 </div>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="hamburger-icon" id="offcanvas-open">
+                        <span class="line line-1"></span>
+                        <span class="line line-2"></span>
+                        <span class="line line-3"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-3">
+            <div class="container">
+                <div class="navline-3">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#">
+                                All categories<span><i class="bi bi-chevron-down"></i></span>
+                            </a>
+                            <ul class="drop-down d-flex W-auto" id='Mega-menu'>
+                                <div class="d-dleft">
+                                    <ul class="d-dleft-list">
+                                        <li class="active" data-for-tab="Fur">
+                                            <strong>Furniture</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Acces">
+                                            <strong>Accessories</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Cosmetics">
+                                            <strong>Cosmetics</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Optics">
+                                            <strong>Optics</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Bag">
+                                            <strong>Bag</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Frang">
+                                            <strong>Frangnance</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Body">
+                                            <strong>Body</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Watch">
+                                            <strong>Watch</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Elect">
+                                            <strong>Electronics</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="phone">
+                                            <strong>Mobile</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="car">
+                                            <strong>car</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="d-dright">
+                                    <div class="menu-tab-contents active" data-tab="Fur">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Acces">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture-1</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Cosmetics">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture-3</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Optics">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture-4</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Bag">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture-5</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Frang">
+                                        <div class="d-d_r-heding">
+                                            <span>Frangnance</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Body">
+                                        <div class="d-d_r-heding">
+                                            <span>Body</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Watch">
+                                        <div class="d-d_r-heding">
+                                            <span>Watch</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Elect">
+                                        <div class="d-d_r-heding">
+                                            <span>Electronics</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="phone">
+                                        <div class="d-d_r-heding">
+                                            <span>Mobile</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="car">
+                                        <div class="d-d_r-heding">
+                                            <span>Car 10</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li><a href="#">What’s new</a></li>
+                        <li><a href="./contact-us.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="category.html">Products</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                    <div class="nac">
+                        <li>
+                            <a href="authentication-1.html">
+                                <span>sign-in</span>
+                                <span><i class="bi bi-chevron-down"></i></span>
+                            </a>
+                            <ul class="drop-down">
+                                <li><a href="./acc-o.html">profile</a></li>
+                                <li><a href="#">log-out</a></li>
+                                <li><a href="#">settings</a></li>
+                                <li><a href="#">drop-down</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal & modalbackground -->
+        
+            <div id="modal-container" class="modal-container">
+                <div id="modal" class="modal">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search product</h5>
+                        <button type="button" class="btn-close" id="modalclose-btn">&times;</button>
+                    </div>
+        
+                    <div class="modal-body">
+                        <input type="text" placeholder="search-here">
+                    </div>
+        
+                    <div class="modal-footer">
+                        <button type="button" class="search-btn">Search</button>
+                    </div>
+                </div>
+                
+           </div>
+
+    </header>
+
+    <!-- product-details -->
+    <section class="product-details">
+        <div class="container">
+            <div class="my-row">
+                <div class="cl-lg-6 aside-img-wrapper">
+                    <!-- <div class="aside-img">
+                        <img src="./asset/imag/p-img 964.png" alt="">
+                    </div>
+                    <div class="aside-img-bottom">
+                        <a href="#"><img src="./asset/imag/p-img 964.png" alt=""></a>
+                        <a href="#"><img src="./asset/imag/p-img 964.png" alt=""></a>
+                        <a href="#"><img src="./asset/imag/p-img 964.png" alt=""></a>
+                        <a href="#">
+                            <div class="p_d_img">
+                                <img src="./asset/imag/p-img 964.png" alt="">
+                                <span>More</span>
+                            </div>
+                        </a>
+                        
+                    </div> -->
+                    
+                    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2p">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./asset/imag/p-img 964.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./asset/imag/p-img 964.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./asset/imag/p-img 964.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./asset/imag/p-img 964.png" />
+                            </div>
+                       
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <div thumbsSlider="" class="swiper mySwiperp">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./asset/imag/p-img 964.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./asset/imag/p-img 964.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./asset/imag/p-img 964.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./asset/imag/p-img 964.png" />
+                            </div>
+
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+                <div class="cl-lg-6 rside-wrapper">
+                    <div class="aside-content">
+                        <div class="P_bread">
+                            <p class="bread-crumb">
+                                <span>Home</span>/<span>Furniture</span>/<span>Bed</span>
+                            </p>
+                            <p class="off">20% off</p>
+                        </div>
+                        <div class="p_d_code-box">
+                            <p class="p_d_codetitle">TALAH DESIGNS</p>
+                            <div class="p_d_code">
+                                <h3>AFL-BED-164</h3>
+                                <div class="P_icon">
+                                    <div class="share-option">
+                                        <div class="arrow-down"></div>
+                                        <span>Share with friends</span>
+                                        <a href="#" ><i class="bi bi-facebook"></i></a>
+                                        <a href="#"><i class="bi bi-twitter"></i></a>
+                                    </div>
+                                    <span class="share-i"><i class="bi bi-share"></i></span>
+                                    <span class="heart-i"><i class="bi bi-heart"></i></span>
+                                </div>
+                            </div>
+                            <p class="p_matarial">
+                                Materials:<br>Mehogoni Wood & Plywood
+                            </p>
+                            <p class="p_review">
+                                <span class="star"><i class="bi bi-star-fill"></i></span>
+                                <span class="star"><i class="bi bi-star-fill"></i></span>
+                                <span class="star"><i class="bi bi-star-fill"></i></span>
+                                <span class="star"><i class="bi bi-star-fill"></i></span>
+                                <span class="star"><i class="bi bi-star-fill"></i></span>
+                                <span class="p_review-text">14 Reviews</span>
+                            </p>
+                            <div class="price-bar">
+                                <h6>455 BDT <span>455 BDT</span></h6>
+                                <p>(Exclusive of VAT)</p>
+                            </div>
+                            <div class="p_d_sizebox">
+                                <div class="size-box p_d_sbox">
+                                    <div class="cate_headi">
+                                        <li class="list">Size</li>
+                                        <li><small>Size Guide <i class="bi bi-chevron-right"></i></small></li>
+                                    </div>
+                                    <div class="btn-area p_d_sbtn-area">
+                                        <button class="active">4 X 7</button>
+                                        <button>5 x 7</button>
+                                        <button>5½ X 7</button>
+                                        <button>6 X 7</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="color-box">
+                            <h6>Colour</h6>
+                            <ul>
+                                <li class="color Gold"></li>
+                                <li class="color black"></li>
+                                <li class="color Red"></li>
+                                <li class="color green"></li>
+                                <li class="color sky"></li>
+                            </ul>
+                        </div>
+                        <div class="p_d_sc-b">
+                            <div class="c-b pc-b">
+                                <button data-for-button="decrease">-</button>
+                                <span class="middle"id="value">0</span>
+                                <button data-for-button="increase">+</button>
+                            </div>
+                            <button id="cartcanvas-open">Add to cart</button>
+                            <p>Order in the next <strong>23 hrs 43 mins </strong> and receive it by <strong>Thur, aug 7</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile-menu -->
+        <div class="offcanvas-wrapper" id="cartcanvas-wrapper2">
+            <div class="offcanvas review-canvas" id="cartcanvas2">
+                <div class="offcanvas-header r_offheader">
+                    <div class="offcanvas-logo">
+                       <h5>Item added to cart</h5>
+                    </div>
+                    <div class="close-offcanvas">
+                       <button id="cart-close-btn"><i class="bi bi-arrow-right"></i></button>
+                    </div>
+                  </div>
+                  <div class="offcanvas-body r_offbody p_off-body">
+                       <div class="c_order_des">
+                          <div class="c_o_heading">
+                              <h5>Item added to cart</h5>
+                          </div>
+                          <p class="des-p1">Tell other people more about the product. What about the quality? Or the comfort?</p>
+                       </div>
+
+                       <div class="all-ratings">
+                            <p>Your overall rating of this product</p>
+                            <div class="r_star-box">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                       </div>
+
+                       <div class="c_p_r-wrapper">
+                        <div class="ref_p">
+                            <div class="ref_p_info">
+                                <div class="photo">
+                                    <img src="./asset/imag/image 505.png" alt="">
+                                </div>
+                                <div class="photo-info">
+                                    <p class="metarial off-mata">Mehogoni Wood</p>
+                                    <h6>ALF-CNT</h6>
+                                    <p class="bd-price">
+                                        <span class="bd-p1">BDT 63,675 /-</span>
+                                        <span class="bd-p2">BDT 63,675 /-</span>
+                                    </p>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="cart-off-btn">
+                            <a href="./category.html" class="Shopping">Continue Shopping</a>
+                            <a href="./choose.html" class="Checkout">Checkout</a>
+                        </div>
+                        <div class="total-price">
+                            <div class="c-total">
+                                <p>Cart Total: </p>
+                                <span>10 item(s)</span>
+                            </div>
+                            <div class="c-total">
+                                <p>Total Price:</p>
+                                <span> SAR 1000</span>
+                            </div>
+                        </div>
+                        <p class="Bought">Frequently Bought Together</p>
+                    </div>
+                    <div class="ref_p p_info-bg">
+                        <div class="ref_p_info ">
+                            <div class="photo">
+                                <img src="./asset/imag/image 505.png" alt="">
+                            </div>
+                            <div class="photo-info">
+                                <p class="metarial off-mata">Mehogoni Wood</p>
+                                <h6>ALF-CNT</h6>
+                                <p class="bd-price">
+                                    <span class="bd-p1">BDT 63,675 /-</span>
+                                    <span class="bd-p2">BDT 63,675 /-</span>
+                                </p>
+                            </div>
+                            <p class="r-t-flag off">20% off</p>
+                        </div>
+                        <div class="wish-cart">
+                            <button><i class="bi bi-handbag"></i> Move to cart</button>
+                            <button><i class="bi bi-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                    <div class="ref_p p_info-bg">
+                        <div class="ref_p_info ">
+                            <div class="photo">
+                                <img src="./asset/imag/image 505.png" alt="">
+                            </div>
+                            <div class="photo-info">
+                                <p class="metarial off-mata">Mehogoni Wood</p>
+                                <h6>ALF-CNT</h6>
+                                <p class="bd-price">
+                                    <span class="bd-p1">BDT 63,675 /-</span>
+                                    <span class="bd-p2">BDT 63,675 /-</span>
+                                </p>
+                            </div>
+                            <p class="r-t-flag off">20% off</p>
+                        </div>
+                        <div class="wish-cart">
+                            <button><i class="bi bi-handbag"></i> Move to cart</button>
+                            <button><i class="bi bi-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                  </div>
+             </div>
+        </div>
+    </section>
+    <!-- product-tab-section -->
+    <section class="product-tab">
+        <div class="container">
+           <div id="tab-container">
+              <div class="btn-container">
+                <button class="tab-btn active" data-id="description">Description</button>
+                <button class="tab-btn" data-id="specificaton">Specificaton</button>
+                <button class="tab-btn" data-id="reviews">Reviews</button>
+              </div> 
+
+              <div class="tab-content active" id="description">
+                    <article class="tab-con-1">
+                    <h6>Headline</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </article>
+                    <article class="tab-con-2">
+                    <h6>Features</h6>
+                    <ul>
+                        <li>- Velvet fabric</li>
+                        <li>- 2.5 cm platform heel</li>
+                        <li>- Versatile garment ideal for yoga, pilates or for a casual look for relaxing in</li>
+                        <li>- Laces</li>
+                    </ul>
+                    </article>
+              </div>
+              <div class="tab-content" id="specificaton">
+                    <table class="table">
+                        <tbody>
+                          <tr class="tr-1">
+                            <td>Color:</td>
+                            <td>Orange</td>
+                          </tr>
+                          <tr class="tr-2">
+                            <td>Size:</td>
+                            <td>Medium</td>
+                          </tr>
+                          <tr class="tr-1">
+                            <td>Color:</td>
+                            <td>red</td>
+                          </tr>
+                        </tbody>
+                      </table>
+              </div>
+              <div class="tab-content" id="reviews">
+                <div class="my-row">
+                    <div class="cl-lg-3 w-md-100">
+                        <div class="review-box-l">
+                            <div class="r_b_h">
+                                <h3>4.9/ 5</h3>
+                                <p>Based on 14 Reviews</p>
+                                <div class="star">
+                                    <span><i class="bi bi-star-fill"></i></span>
+                                    <span><i class="bi bi-star-fill"></i></span>
+                                    <span><i class="bi bi-star-fill"></i></span>
+                                    <span><i class="bi bi-star"></i></span>
+                                    <span><i class="bi bi-star"></i></span>
+
+                                </div>
+                            </div>
+                            <div class="r_b_ratings">
+                                <div class="ratings-bar">
+                                    <span>5 Star</span>
+                                    <li class="li-w5"></li>
+                                </div>
+                                <div class="ratings-bar">
+                                    <span>4 Star</span>
+                                    <li class="li-w4"></li>
+                                </div>
+                                <div class="ratings-bar">
+                                    <span>3 Star</span>
+                                    <li class="li-w3"></li>
+                                </div>
+                                <div class="ratings-bar">
+                                    <span>2 Star</span>
+                                    <li class="li-w2"></li>
+                                </div>
+                                <div class="ratings-bar">
+                                    <span>1 Star</span>
+                                    <li class="li-w1"></li>
+                                </div>
+                            </div>
+                            <div class="r_b_button">
+                                <button id="r-offcanvas-open">Write a review</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cl-lg-9 w-md-100">
+                        <div class="review-box-r">
+                            <div class="r_b_top">
+                                <p>Showing Result 2 0f 40</p>
+                                <form action="#" class="select-box">
+                                    <span>Filtrer by:</span>
+                                    <select name="#" id="#">
+                                        <option value="new">New</option>
+                                        <option value="price">Price</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <div class="r_con_b">
+                                <div class="jax-star">
+                                    <div class="jax-con">
+                                        <p class="r_njax">Jaxson Workman</p>
+                                        <span>Verified Purchase</span>
+                                        <p class="r-time">2 hours ago</p>
+                                    </div>
+                                    <div class="star">
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star"></i></span>
+                                        <span><i class="bi bi-star"></i></span>
+    
+                                    </div>
+
+                                </div>
+                                <div class="extra_r_b">
+                                    <p class="extra_p">We will not only bear witness, but we will act</p>
+                                    <div class="recall-d">
+                                        <div class="recall-d1">
+                                            <span><i class="bi bi-plus-circle-fill"></i></span>
+                                            <p>Extra light, 30-lap memory recall</p>
+                                        </div>
+                                        <div class="recall-d2">
+                                            <span><i class="bi bi-dash-circle-fill"></i></span>
+                                            <p>Extra light, 30-lap memory recall</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="r_helpful">
+                                    <div class="r_helpful-l">
+                                        <p>Was this review helpful?</p>
+                                    </div>
+                                    <div class="r_helpful-r">
+                                        <li>
+                                            <span><i class="bi bi-hand-thumbs-up"></i></span>
+                                            <p>32</p>
+                                        </li>
+                                        <li>
+                                            <span><i class="bi bi-hand-thumbs-down"></i></span>
+                                            <p>32</p>
+                                        </li>
+                                        <li>
+                                            <span class="active"><i class="bi bi-flag"></i></span>
+                                            <p>Report</p>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-box-r">
+                            
+                            <div class="r_con_b r_con_bg">
+                                <div class="jax-star">
+                                    <div class="jax-con">
+                                        <p class="r_njax">Jaxson Workman</p>
+                                        
+                                        <p class="r-time">2 hours ago</p>
+                                    </div>
+                                    <div class="star">
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star"></i></span>
+                                        <span><i class="bi bi-star"></i></span>
+    
+                                    </div>
+
+                                </div>
+                                <div class="extra_r_b">
+                                    <p class="extra_p">We will not only bear witness, but we will act</p>
+                                    <div class="recall-d">
+                                        <div class="recall-d1">
+                                            <span><i class="bi bi-plus-circle-fill"></i></span>
+                                            <p>Extra light, 30-lap memory recall</p>
+                                        </div>
+                                        <div class="recall-d2">
+                                            <span><i class="bi bi-dash-circle-fill"></i></span>
+                                            <p>Extra light, 30-lap memory recall</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="r_helpful">
+                                    <div class="r_helpful-l">
+                                        <p>Was this review helpful?</p>
+                                    </div>
+                                    <div class="r_helpful-r">
+                                        <li>
+                                            <span><i class="bi bi-hand-thumbs-up"></i></span>
+                                            <p>32</p>
+                                        </li>
+                                        <li>
+                                            <span><i class="bi bi-hand-thumbs-down"></i></span>
+                                            <p>32</p>
+                                        </li>
+                                        <li>
+                                            <span class="active"><i class="bi bi-flag"></i></span>
+                                            <p>Report</p>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+           
+        </div>
+        <!-- mobile-menu -->
+                    <div class="offcanvas-wrapper" id="offcanvas-wrapper2">
+                        <div class="offcanvas review-canvas" id="offcanvas2">
+                            <div class="offcanvas-header r_offheader">
+                                <div class="offcanvas-logo">
+                                   <h5>Write a review</h5>
+                                </div>
+                                <div class="close-offcanvas">
+                                   <button id="r-close-btn"><i class="bi bi-arrow-right"></i></button>
+                                </div>
+                              </div>
+                              <div class="offcanvas-body r_offbody">
+                                   <div class="c_order_des">
+                                      <div class="c_o_heading">
+                                          <h5>So what do you think?</h5>
+                                      </div>
+                                      <p class="des-p1">Tell other people more about the product. What about the quality? Or the comfort?</p>
+                                   </div>
+
+                                   <div class="all-ratings">
+                                        <p>Your overall rating of this product</p>
+                                        <div class="r_star-box">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                   </div>
+
+                                   <ul class="r_offbody-ul">
+                                   
+                                    <li>
+                                        <label for="comment">Leave Comment Here</label>
+                                        <textarea name="" id="" cols="30" rows="10"name="comment"></textarea>
+                                    </li>
+                                    <button class="Cancel-o sub-mit">Submit</button>
+                                 </ul>
+                                   
+                              </div>
+                         </div>
+                    </div>
+    </section>
+    <!-- easy-return -->
+    <section class="easy-return">
+        <div class="container">
+            <div class="my-row row-center">
+                <div class="cl-lg-4">
+                    <div class="return-box">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z"/></svg>
+                        </div>
+                        <h4>Easy Return</h4>
+                        <p>Get free returns on eligible items</p>
+                    </div>
+                </div>
+                <div class="cl-lg-4">
+                    <div class="return-box">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 256 256"><path fill="currentColor" d="m247.42 117l-14-35a15.93 15.93 0 0 0-14.84-10H184v-8a8 8 0 0 0-8-8H24A16 16 0 0 0 8 72v112a16 16 0 0 0 16 16h17a32 32 0 0 0 62 0h50a32 32 0 0 0 62 0h17a16 16 0 0 0 16-16v-64a7.94 7.94 0 0 0-.58-3ZM184 88h34.58l9.6 24H184ZM24 72h144v64H24Zm48 136a16 16 0 1 1 16-16a16 16 0 0 1-16 16Zm81-24h-50a32 32 0 0 0-62 0H24v-32h144v12.31A32.11 32.11 0 0 0 153 184Zm31 24a16 16 0 1 1 16-16a16 16 0 0 1-16 16Zm48-24h-17a32.06 32.06 0 0 0-31-24v-32h48Z"/></svg>
+                        </div>
+                        <h4>Trusted Shipping</h4>
+                        <p>Free shipping when you spend EGP 350 and above</p>
+                    </div>
+                </div>
+                <div class="cl-lg-4">
+                    <div class="return-box">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="m10 17l-4-4l1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5l-9-4Z"/></svg>
+                        </div>
+                        <h4>Secure Shopping</h4>
+                        <p>Your data is always protected</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- related-product -->
+    <section class="related-product">
+        <div class="container">
+            <div class="my-row">
+                <h3>Related Products</h3>
+                <div class="related-p-wrapper">
+                    <div class="product-card p_bg">
+                        <div class="produt-img">
+                            <a href="#">
+                                <img src="./asset/imag/related-p.png" alt="">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <p class="p-cate">
+                                <a href="#">Materials: Mehogoni Wood </a>
+                            </p>
+                            <p class="p-code">
+                                <a href="#">AFL-BED-166</a>
+                            </p>
+                            <h4><a href="#">BDT 45,675 /-</a></h4>
+                            <div class="p-cart">
+                                <span class="cart-span">Add to cart</span>
+                                <span><i class="bi bi-heart"></i></span>
+                            </div>
+                        </div>
+                        <p class="top-note">Free Delivery</p>
+                    </div>
+                    <div class="product-card p_bg">
+                        <div class="produt-img">
+                            <a href="#">
+                                <img src="./asset/imag/related-p.png" alt="">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <p class="p-cate">
+                                <a href="#">Materials: Mehogoni Wood </a>
+                            </p>
+                            <p class="p-code">
+                                <a href="#">AFL-BED-166</a>
+                            </p>
+                            <h4><a href="#">BDT 45,675 /-</a></h4>
+                            <div class="p-cart">
+                                <span class="cart-span">Add to cart</span>
+                                <span><i class="bi bi-heart"></i></span>
+                            </div>
+                        </div>
+                        <p class="top-note">New Arrival</p>
+                    </div>
+                    <div class="product-card p_bg">
+                        <div class="produt-img">
+                            <a href="#">
+                                <img src="./asset/imag/related-p.png" alt="">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <p class="p-cate">
+                                <a href="#">Materials: Mehogoni Wood </a>
+                            </p>
+                            <p class="p-code">
+                                <a href="#">AFL-BED-166</a>
+                            </p>
+                            <h4><a href="#">BDT 45,675 /-</a></h4>
+                            <div class="p-cart">
+                                <span class="cart-span">Add to cart</span>
+                                <span><i class="bi bi-heart"></i></span>
+                            </div>
+                        </div>
+                        <p class="top-note">20% off</p>
+                    </div>
+                    <div class="product-card p_bg">
+                        <div class="produt-img">
+                            <a href="#">
+                                <img src="./asset/imag/related-p.png" alt="">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <p class="p-cate">
+                                <a href="#">Materials: Mehogoni Wood </a>
+                            </p>
+                            <p class="p-code">
+                                <a href="#">AFL-BED-166</a>
+                            </p>
+                            <h4><a href="#">BDT 45,675 /-</a></h4>
+                            <div class="p-cart">
+                                <span class="cart-span">Add to cart</span>
+                                <span><i class="bi bi-heart"></i></span>
+                            </div>
+                        </div>
+                        <p class="top-note">Free Delivery</p>
+                    </div>
+                    <div class="product-card p_bg">
+                        <div class="produt-img">
+                            <a href="#">
+                                <img src="./asset/imag/related-p.png" alt="">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <p class="p-cate">
+                                <a href="#">Materials: Mehogoni Wood </a>
+                            </p>
+                            <p class="p-code">
+                                <a href="#">AFL-BED-166</a>
+                            </p>
+                            <h4><a href="#">BDT 45,675 /-</a></h4>
+                            <div class="p-cart">
+                                <span class="cart-span">Add to cart</span>
+                                <span><i class="bi bi-heart"></i></span>
+                            </div>
+                        </div>
+                        <p class="top-note">Free Delivery</p>
+                    </div>
+                    <div class="product-card p_bg">
+                        <div class="produt-img">
+                            <a href="#">
+                                <img src="./asset/imag/related-p.png" alt="">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <p class="p-cate">
+                                <a href="#">Materials: Mehogoni Wood </a>
+                            </p>
+                            <p class="p-code">
+                                <a href="#">AFL-BED-166</a>
+                            </p>
+                            <h4><a href="#">BDT 45,675 /-</a></h4>
+                            <div class="p-cart">
+                                <span class="cart-span">Add to cart</span>
+                                <span><i class="bi bi-heart"></i></span>
+                            </div>
+                        </div>
+                        <p class="top-note">Free Delivery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer-section-10 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-content">
+                    <div class="help-center">
+                        <div class="icon"><i class="bi bi-question-circle"></i></div>
+                        <div class="help-text">
+                            <span>Help Center</span>
+                            <p>help@akhtarfurnishers.com</p>
+                        </div>
+                    </div>
+                    <div class="emai help-center">
+                        <div class="icon"><i class="bi bi-envelope-open"></i></div>
+                        <div class="help-text">
+                            <span>Email  Support</span>
+                            <p>info@akhtarfurnishers.com</p>
+                        </div>
+                    </div>
+                    <div class="phone help-center">
+                        <div class="icon"><i class="bi bi-telephone"></i></div>
+                        <div class="help-text">
+                            <span>Phone</span>
+                            <p>0147-004700</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-content">
+                    <div class="logo-1">
+                        <img src="./asset/imag/image 50.png" alt="">
+                        <img src="./asset/imag/image 51.png" alt="">
+                    </div>
+                    <div class="logo-1">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="f-b-content">
+                    <p>Terms of Use  -  Privacy Policy  -  Terms of Return</p>
+                    <ul class="f-list">
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    </ul>
+                    <p>© 2021 AKHTAR. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./asset/js/swiper-bundle.min.js"></script>
+    <script src="./asset/js/p-d.js"></script>
+    <script src="./asset/js/index.js"></script>
+    <script src="./asset/js/product-d.js"></script>
+    <script src="./asset/js/tab.js"></script>
+</body>
+</html>

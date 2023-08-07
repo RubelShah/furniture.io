@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>furniture</title>
+    <!-- bootstrap-cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- swiper-css -->
+    <link rel="stylesheet" href="./asset/css/swiper-bundle.min.css">
+    <!-- custom-css -->
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <!-- header-section-1 -->
+    <header>
+        <div class="navbar-1">
+        
+                <div class="container navline-1">
+                    <div class="nleft-1">
+                        <span>ship to</span>
+                        <div class="selector">
+                            <div id="selector-field">
+                                <div class="select-text" id="text-area">
+                                    <img src="./asset/imag/af-flag.gif" alt=""  width="20" height="15">
+                                    <span>afganistan</span>
+                                </div>
+                                <span><i class="bi bi-chevron-down"></i></span>
+                            </div>
+                            <ul id="list" class="hide">
+                                <li class="option">
+                                    <img src="./asset/imag/ag-flag.gif" alt="" width="20" height="15">
+                                    <span>argentina</span>
+                                </li>
+                                <li class="option">
+                                    <img src="./asset/imag/bg-flag.gif" alt="" width="20" height="15">
+                                    <span>bangladesh</span>
+                                </li>
+                                <li class="option">
+                                    <img src="./asset/imag/id-flag.gif" alt="" width="20" height="15">
+                                    <span>indonesia</span>
+                                </li>
+                                <li class="option">
+                                    <img src="./asset/imag/in-flag.gif" alt="" width="20" height="15">
+                                    <span>india</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nright-1">
+                        <ul>
+                            <li class="nr-icon">
+                                <span>
+                                    <i class="bi bi-truck"></i>
+                                </span>
+                                <span>trusted shipping</span>
+                            </li>
+                            <li class="nr-icon">
+                                <span>
+                                    <i class="bi bi-arrow-90deg-left"></i>
+                                </span>
+                                <span>easy returns</span>
+                            </li>
+                            <li class="nr-icon">
+                                <span>
+                                    <i class="bi bi-shield-check"></i>
+                                </span>
+
+                                <span>secrue shopping</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="navbar-2">
+            <div class="container">
+                <div class="navline-2">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="./asset/imag/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search-area">
+                        <form action="#" class='nav-form'>
+                            <input type="text" placeholder="what are looking for?">
+                            <span class="search-icon"><i class="bi bi-search"></i></span>
+                        </form>
+                    </div>
+                    <div class="nicon-area">
+                        <a href="cart.html">
+                            <span>
+                                <i class="bi bi-bag"></i>
+                                <div class="circle">2</div>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span>
+                                <i class="bi bi-heart"></i>
+                                <div class="circle"></div>
+                            </span>
+                        </a>
+                        
+                    </div>
+                    <!-- mobile-menu -->
+                    <div class="offcanvas-wrapper">
+                        <div class="offcanvas" id="offcanvas">
+                            <div class="offcanvas-header">
+                              <div class="offcanvas-logo">
+                                 <div class="logo">
+                                     <a href="#">
+                                         <img src="./asset/imag/logo.png" alt="">
+                                     </a>
+                                 </div>
+                              </div>
+                              <div class="close-offcanvas">
+                                 <button id="close-btn"><i class="bi bi-x-lg"></i></button>
+                              </div>
+                            </div>
+                            <div class="offcanvas-body">
+                                 <ul class="nav-list offcanvas-list">
+                                     <li>
+                                         <a href="#">
+                                             All categories<span><i class="bi bi-chevron-down"></i></span>
+                                         </a>
+                                         <ul class="drop-down">
+                                             <li><a href="#">drop-down</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                         </ul>
+                                     </li>
+                                     <li><a href="#">What’s new</a></li>
+                                     <li><a href="#">Trending</a></li>
+                                     <li><a href="#">Products</a></li>
+                                     <li><a href="#">Shop</a></li>
+                                 </ul>
+                                 <div class="nac offnac">
+                                     <li>
+                                         <a href="#" class="nac-icon">
+                                             <span><i class="bi bi-person-fill"></i></span>
+                                             <span><i class="bi bi-chevron-down"></i></span>
+                                         </a>
+                                         <a href="#" id="search-box" class="nac-icon">
+                                            <i class="bi bi-search"></i>
+                                         </a>
+                                         <ul class="drop-down">
+                                             <li><a href="#">profile</a></li>
+                                             <li><a href="#">log-out</a></li>
+                                             <li><a href="#">settings</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                         </ul>
+                                     </li>
+                                 </div>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="hamburger-icon" id="offcanvas-open">
+                        <span class="line line-1"></span>
+                        <span class="line line-2"></span>
+                        <span class="line line-3"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-3">
+            <div class="container">
+                <div class="navline-3">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#">
+                                All categories<span><i class="bi bi-chevron-down"></i></span>
+                            </a>
+                            <ul class="drop-down d-flex W-auto" id='Mega-menu'>
+                                <div class="d-dleft">
+                                    <ul class="d-dleft-list">
+                                        <li class="active" data-for-tab="Fur">
+                                            <strong>Furniture</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Acces">
+                                            <strong>Accessories</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Cosmetics">
+                                            <strong>Cosmetics</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Optics">
+                                            <strong>Optics</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Bag">
+                                            <strong>Bag</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Frang">
+                                            <strong>Frangnance</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Body">
+                                            <strong>Body</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Watch">
+                                            <strong>Watch</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Elect">
+                                            <strong>Electronics</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="phone">
+                                            <strong>Mobile</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="car">
+                                            <strong>car</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="d-dright">
+                                    <div class="menu-tab-contents active" data-tab="Fur">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Acces">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture-1</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Cosmetics">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture-3</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Optics">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture-4</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Bag">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture-5</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Frang">
+                                        <div class="d-d_r-heding">
+                                            <span>Frangnance</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Body">
+                                        <div class="d-d_r-heding">
+                                            <span>Body</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Watch">
+                                        <div class="d-d_r-heding">
+                                            <span>Watch</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Elect">
+                                        <div class="d-d_r-heding">
+                                            <span>Electronics</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="phone">
+                                        <div class="d-d_r-heding">
+                                            <span>Mobile</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="car">
+                                        <div class="d-d_r-heding">
+                                            <span>Car 10</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li><a href="#">What’s new</a></li>
+                        <li><a href="./contact-us.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="category.html">Products</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                    <div class="nac">
+                        <li>
+                            <a href="authentication-1.html">
+                                <span>sign-in</span>
+                                <span><i class="bi bi-chevron-down"></i></span>
+                            </a>
+                            <ul class="drop-down">
+                                <li><a href="./acc-o.html">profile</a></li>
+                                <li><a href="#">log-out</a></li>
+                                <li><a href="#">settings</a></li>
+                                <li><a href="#">drop-down</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal & modalbackground -->
+        
+            <div id="modal-container" class="modal-container">
+                <div id="modal" class="modal">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search product</h5>
+                        <button type="button" class="btn-close" id="modalclose-btn">&times;</button>
+                    </div>
+        
+                    <div class="modal-body">
+                        <input type="text" placeholder="search-here">
+                    </div>
+        
+                    <div class="modal-footer">
+                        <button type="button" class="search-btn">Search</button>
+                    </div>
+                </div>
+                
+           </div>
+
+    </header>
+
+   <section class="track-order">
+    <div class="container">
+        <div class="t2-status">
+            <div class="">
+                <div class="order-text track-text">
+                    <h5>Track my Order</h5>
+                    <p>Look how close your order is to you</p>
+                    <div class="inp-1">
+                        <input type="tel"placeholder="+880 Your number">
+                        <span><i class="bi bi-telephone"></i></span>
+                    </div>
+                </div>
+                <div class="order-button trk-btn">
+                    <button>Submit</button>
+                </div>
+            </div>
+            <div class="order-img">
+                <img src="./asset/imag/woman-is-sitting-with-laptop359.avif" alt="">
+            </div>
+        </div>
+        
+        <div class=" order-bg">
+            <div class="c_orders c-padding o_orders">
+                <div class="o_traker-h">
+                    <div class="order_title">
+                        <button><i class="bi bi-arrow-left"></i><span>Orders</span></button>
+                        <span class="o_t_span">order#ord-2000003</span>
+                    </div>
+                    <div class="o_view">
+                        <span>Placed on Jun 23, 2020</span>
+                    </div>
+                </div>
+                <p class="status">Status:</p>
+                <div class="c_o_status o_status ostatus-bg o_statusfail c_o_border">
+                    
+                    <div class="circle-box">
+                        <div class="c_o_circle "><i class="bi bi-check2"></i></div>
+                        <p>Ordered</p>
+                    </div>
+                    <div class="circle-box">
+                        <div class="c_o_circle"><i class="bi bi-check2"></i></div>
+                        <p>Processing</p>
+                    </div>
+                    <div class="circle-box">
+                        <div class="c_o_circle "><i class="bi bi-x"></i></div>
+                        <p>Canceled</p>
+                    </div>
+                </div>
+            </div>
+            <div class="delivery-add ">
+                <div class="deli_add_heading">
+                   <p>delivery addrss</p>
+                   <p>additional information</p>
+                   <p>Payment-method</p>
+                </div>
+                 <div class="deli_add_info o_d_add">
+                     <div class="invoice-info">
+                         <p class="o_d_add-name">jhon doe</p>
+                         <p class="o_d_add-tx">566 Gentle Nook, Minneapolis</p>
+                         <div class="add-num">+9130000000 <span><i class="bi bi-check2"></i> Verified</span></div>
+                         
+                     </div>
+                     <div class="">
+                         <div>
+                            <button class="addr_button">view invoice <span><i class="bi bi-chevron-right"></i></span></button>
+                            
+                         </div>
+                         <button class="addr_button">view credit memo <span><i class="bi bi-chevron-right"></i></span></button>
+
+                        <li>
+                            <button class="addr_button">view credit memo <span><i class="bi bi-chevron-right"></i></span></button>
+                        </li>
+                         
+                     </div>
+                     <div class="pay-info">
+                        <img src="./asset/imag/Mastercard-Emblem-PNG-VECTOR.png" alt="">
+                        <span>Master card with ••••  4435</span>
+                     </div>
+                 </div>
+                 
+            </div>
+             <div class="ex-rate">
+                <h5>Rate your Experience</h5>
+                <p>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    
+                </p>
+             </div>
+             <div class="o_issue">
+                <p>Do you have issue or inquire about your order?</p>
+                <div class="o_button_area">
+                    <button class='contact'>
+                        <span><i class="bi bi-gear-wide-connected"></i></span>
+                        Contact Customer Service
+                    </button>
+                    <button class='cancel' id="o-offcanvas-open">
+                        <span><i class="bi bi-x-circle"></i></span>
+                        Cancel Order
+                    </button>
+                </div>
+             </div>
+             <div class="">
+                <div class="o_ref_p_info">
+                    <div class="photo o_photo">
+                        <img src="./asset/imag/image 505.png" alt="">
+                    </div>
+                    <div class="photo-info o_p_info">
+                        <div class="p_metarial">
+                            <span class="Materials">Materials:Teak Wood</span>
+                            <span class="price"> BDT 49,469 /-</span>
+                         </div>
+                         <div class="p_code">
+                            <span class="p_code_s">AFL-CNT-461</span>
+                            <span class="p_code_q">QTY: 1</span>
+                         </div>
+                       <div class="return-poli">
+                            <p class="no-return">
+                                <span><i class="bi bi-arrow-return-left"></i></span>
+                                <span>This item cannot be changed or return</span>
+                            </p>
+                            <div class="deliv"> 
+                               <span> delivery time: 21feb</span>
+                               <p>Size: 30 X 30 X 18</p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="summary-area o_summary">
+                <p class="sum-p">Order summary</p>
+                <div class="sub-total">
+                    <p>Subtotal(5 item)</p>
+                    <p>  BDT 63,675 /-</p>
+                </div>
+                <div class="shipping-fee">
+                    <p>Shipping-fee</p>
+                    <p>Free</p>
+                </div>
+                <div class="discount">
+                    <p>Discount</p>
+                    <p>BDT 63,675 /-</p>
+                </div>
+                <div class="total">
+                    <p>Total</p>
+                    <p>BDT 63,675 /-</p>
+                </div>
+                <div class="total t-VAT">
+                    <p>Estimated VAT</p>
+                    <p>BDT 63,675 /-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+    <!-- footer-section-10 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-content">
+                    <div class="help-center">
+                        <div class="icon"><i class="bi bi-question-circle"></i></div>
+                        <div class="help-text">
+                            <span>Help Center</span>
+                            <p>help@akhtarfurnishers.com</p>
+                        </div>
+                    </div>
+                    <div class="emai help-center">
+                        <div class="icon"><i class="bi bi-envelope-open"></i></div>
+                        <div class="help-text">
+                            <span>Email  Support</span>
+                            <p>info@akhtarfurnishers.com</p>
+                        </div>
+                    </div>
+                    <div class="phone help-center">
+                        <div class="icon"><i class="bi bi-telephone"></i></div>
+                        <div class="help-text">
+                            <span>Phone</span>
+                            <p>0147-004700</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-content">
+                    <div class="logo-1">
+                        <img src="./asset/imag/image 50.png" alt="">
+                        <img src="./asset/imag/image 51.png" alt="">
+                    </div>
+                    <div class="logo-1">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="f-b-content">
+                    <p>Terms of Use  -  Privacy Policy  -  Terms of Return</p>
+                    <ul class="f-list">
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    </ul>
+                    <p>© 2021 AKHTAR. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+      <!-- modal & modalbackground -->
+        
+      <div id="modal-container2" class="modal-container">
+        <div id="modal2" class="modal">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Search product</h5>
+                <button type="button" class="btn-close" id="modalclose-btn2">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <input type="text" placeholder="search-here">
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="search-btn">Search</button>
+            </div>
+        </div>
+        
+   </div>
+    <script src="./asset/js/index.js"></script>
+    <script src="./asset/js/tab.js"></script>
+</body>
+</html>

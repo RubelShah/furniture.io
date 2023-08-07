@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>furniture</title>
+    <!-- bootstrap-cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- swiper-css -->
+    <link rel="stylesheet" href="./asset/css/swiper-bundle.min.css">
+    <!-- custom-css -->
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <!-- header-section-1 -->
+    <header>
+        <div class="navbar-1">
+        
+                <div class="container navline-1">
+                    <div class="nleft-1">
+                        <span>ship to</span>
+                        <div class="selector">
+                            <div id="selector-field">
+                                <div class="select-text" id="text-area">
+                                    <img src="./asset/imag/af-flag.gif" alt=""  width="20" height="15">
+                                    <span>afganistan</span>
+                                </div>
+                                <span><i class="bi bi-chevron-down"></i></span>
+                            </div>
+                            <ul id="list" class="hide">
+                                <li class="option">
+                                    <img src="./asset/imag/ag-flag.gif" alt="" width="20" height="15">
+                                    <span>argentina</span>
+                                </li>
+                                <li class="option">
+                                    <img src="./asset/imag/bg-flag.gif" alt="" width="20" height="15">
+                                    <span>bangladesh</span>
+                                </li>
+                                <li class="option">
+                                    <img src="./asset/imag/id-flag.gif" alt="" width="20" height="15">
+                                    <span>indonesia</span>
+                                </li>
+                                <li class="option">
+                                    <img src="./asset/imag/in-flag.gif" alt="" width="20" height="15">
+                                    <span>india</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nright-1">
+                        <ul>
+                            <li class="nr-icon">
+                                <span>
+                                    <i class="bi bi-truck"></i>
+                                </span>
+                                <span>trusted shipping</span>
+                            </li>
+                            <li class="nr-icon">
+                                <span>
+                                    <i class="bi bi-arrow-90deg-left"></i>
+                                </span>
+                                <span>easy returns</span>
+                            </li>
+                            <li class="nr-icon">
+                                <span>
+                                    <i class="bi bi-shield-check"></i>
+                                </span>
+
+                                <span>secrue shopping</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="navbar-2">
+            <div class="container">
+                <div class="navline-2">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="./asset/imag/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search-area">
+                        <form action="#" class='nav-form'>
+                            <input type="text" placeholder="what are looking for?">
+                            <span class="search-icon"><i class="bi bi-search"></i></span>
+                        </form>
+                    </div>
+                    <div class="nicon-area">
+                        <a href="cart.html">
+                            <span>
+                                <i class="bi bi-bag"></i>
+                                <div class="circle">2</div>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span>
+                                <i class="bi bi-heart"></i>
+                                <div class="circle"></div>
+                            </span>
+                        </a>
+                        
+                    </div>
+                    <!-- mobile-menu -->
+                    <div class="offcanvas-wrapper">
+                        <div class="offcanvas" id="offcanvas">
+                            <div class="offcanvas-header">
+                              <div class="offcanvas-logo">
+                                 <div class="logo">
+                                     <a href="#">
+                                         <img src="./asset/imag/logo.png" alt="">
+                                     </a>
+                                 </div>
+                              </div>
+                              <div class="close-offcanvas">
+                                 <button id="close-btn"><i class="bi bi-x-lg"></i></button>
+                              </div>
+                            </div>
+                            <div class="offcanvas-body">
+                                 <ul class="nav-list offcanvas-list">
+                                     <li>
+                                         <a href="#">
+                                             All categories<span><i class="bi bi-chevron-down"></i></span>
+                                         </a>
+                                         <ul class="drop-down">
+                                             <li><a href="#">drop-down</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                         </ul>
+                                     </li>
+                                     <li><a href="#">What’s new</a></li>
+                                     <li><a href="#">Trending</a></li>
+                                     <li><a href="#">Products</a></li>
+                                     <li><a href="#">Shop</a></li>
+                                 </ul>
+                                 <div class="nac offnac">
+                                     <li>
+                                         <a href="#" class="nac-icon">
+                                             <span><i class="bi bi-person-fill"></i></span>
+                                             <span><i class="bi bi-chevron-down"></i></span>
+                                         </a>
+                                         <a href="#" id="search-box" class="nac-icon">
+                                            <i class="bi bi-search"></i>
+                                         </a>
+                                         <ul class="drop-down">
+                                             <li><a href="#">profile</a></li>
+                                             <li><a href="#">log-out</a></li>
+                                             <li><a href="#">settings</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                         </ul>
+                                     </li>
+                                 </div>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="hamburger-icon" id="offcanvas-open">
+                        <span class="line line-1"></span>
+                        <span class="line line-2"></span>
+                        <span class="line line-3"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-3">
+            <div class="container">
+                <div class="navline-3">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#">
+                                All categories<span><i class="bi bi-chevron-down"></i></span>
+                            </a>
+                            <ul class="drop-down d-flex W-auto" id='Mega-menu'>
+                                <div class="d-dleft">
+                                    <ul class="d-dleft-list">
+                                        <li class="active" data-for-tab="Fur">
+                                            <strong>Furniture</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Acces">
+                                            <strong>Accessories</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Cosmetics">
+                                            <strong>Cosmetics</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Optics">
+                                            <strong>Optics</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Bag">
+                                            <strong>Bag</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Frang">
+                                            <strong>Frangnance</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Body">
+                                            <strong>Body</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Watch">
+                                            <strong>Watch</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="Elect">
+                                            <strong>Electronics</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="phone">
+                                            <strong>Mobile</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                        <li data-for-tab="car">
+                                            <strong>car</strong>
+                                            <span><i class="bi bi-chevron-right"></i></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="d-dright">
+                                    <div class="menu-tab-contents active" data-tab="Fur">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Acces">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture-1</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Cosmetics">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture-3</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Optics">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture-4</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Bag">
+                                        <div class="d-d_r-heding">
+                                            <span>Furniture-5</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Frang">
+                                        <div class="d-d_r-heding">
+                                            <span>Frangnance</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Body">
+                                        <div class="d-d_r-heding">
+                                            <span>Body</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Watch">
+                                        <div class="d-d_r-heding">
+                                            <span>Watch</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="Elect">
+                                        <div class="d-d_r-heding">
+                                            <span>Electronics</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="phone">
+                                        <div class="d-d_r-heding">
+                                            <span>Mobile</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-tab-contents" data-tab="car">
+                                        <div class="d-d_r-heding">
+                                            <span>Car 10</span>
+                                            <a href="#">View All Furniture <i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                        <div class="d-d_r-body">
+                                            <div class="d-d_rb-h">
+                                                <span>Trending</span>
+                                                <span>Top Brands</span>
+                                            </div>
+                                            <ul>
+                                                <div class="li-1">
+                                                    <li><a href="#">All Body and Hair Care</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Shorts</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Jackets</a></li>
+                                                </div>
+
+                                                <div class="li-1">
+                                                    <li><a href="#">All-in-one</a></li>
+                                                    <li><a href="#">All activewear</a></li>
+                                                    <li><a href="#">Footware</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li><a href="#">What’s new</a></li>
+                        <li><a href="./contact-us.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="category.html">Products</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                    <div class="nac">
+                        <li>
+                            <a href="authentication-1.html">
+                                <span>sign-in</span>
+                                <span><i class="bi bi-chevron-down"></i></span>
+                            </a>
+                            <ul class="drop-down">
+                                <li><a href="./acc-o.html">profile</a></li>
+                                <li><a href="#">log-out</a></li>
+                                <li><a href="#">settings</a></li>
+                                <li><a href="#">drop-down</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal & modalbackground -->
+        
+            <div id="modal-container" class="modal-container">
+                <div id="modal" class="modal">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search product</h5>
+                        <button type="button" class="btn-close" id="modalclose-btn">&times;</button>
+                    </div>
+        
+                    <div class="modal-body">
+                        <input type="text" placeholder="search-here">
+                    </div>
+        
+                    <div class="modal-footer">
+                        <button type="button" class="search-btn">Search</button>
+                    </div>
+                </div>
+                
+           </div>
+
+    </header>
+    <!-- cart-section -->
+    <section class="cart">
+        <div class="container">
+            <div class="my-row">
+                <div class="cl-lg-3 cl-cart-left">
+                    <div class="cart-left">
+                        <div class="cart_l_h_title">
+                            <p>Hey, Wellcome back!</p>
+                            <h6>Abdulrahman</h6>
+                        </div>
+                        <ul class="cart_l_list">
+                            <li>
+                                <a href="#" data-list="Profile">
+                                    <span><i class="bi bi-person"></i></span>
+                                    <span>Profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-list="Orders">
+                                    <span><i class="bi bi-bucket"></i></span>
+                                    <span>Orders</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-list="Rreturn">
+                                    <span><i class="bi bi-arrow-return-left"></i></span>
+                                    <span>Rreturn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-list="Address">
+                                    <span><i class="bi bi-layout-text-sidebar-reverse"></i></span>
+                                    <span>Address</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"  data-list="Notification">
+                                    <div class="notify-wrapper d-flex justify-between">
+                                        <div class="notify-1">
+                                            <span><i class="bi bi-bell"></i></span>
+                                            <span>Notification</span>
+                                        </div>
+                                        <div class="notify-2">
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"  data-list="Reffer">
+                                    <span><i class="bi bi-gift"></i></span>
+                                    <span>Reffer a Friend</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"  data-list="Log">
+                                    <span><i class="bi bi-person-gear"></i></span>
+                                    <span>Log out</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cl-lg-5 cl-cart-middle">
+                    <div class="cart-middle">
+                        
+
+
+                        <!-- **************** -->
+                        <div class="side-tab-content active" id="Orders">
+                            <div class="c_orders">
+                                <div class="c_o_title">
+                                    <h6>Orders</h6>
+                                    <span>:order#ord-2000003</span>
+                                </div>
+                                <div class="c_o_status">
+                                    <div class="circle-box">
+                                        <div class="c_o_circle"><i class="bi bi-check2"></i></div>
+                                        <p>Ordered</p>
+                                    </div>
+                                    <div class="circle-box">
+                                        <div class="c_o_circle"><i class="bi bi-check2"></i></div>
+                                        <p>Processing</p>
+                                    </div>
+                                    <div class="circle-box">
+                                        <div class="c_o_circle"><i class="bi bi-check2"></i></div>
+                                        <p>Packed</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="delivery-add">
+                               <div class="deli_add_heading">
+                                  <p>delivery addrss</p>
+                                  <p>additional information</p>
+                               </div>
+                                <div class="deli_add_info">
+                                    <div class="invoice">
+                                        <p>jhon doe</p>
+                                        <button class="addr_button">view invoice <span><i class="bi bi-chevron-right"></i></span></button>
+                                    </div>
+                                    <div class="memo">
+                                        <div>
+                                            <p>gentle nook</p>
+                                            <p>+9130000000 <span><i class="bi bi-check2"></i> Verified</span></p>
+                                        </div>
+                                        <button class="addr_button">view credit memo <span><i class="bi bi-chevron-right"></i></span></button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="c_p_r-wrapper">
+                                <div class="ref_p">
+                                    <div class="ref_p_info">
+                                        <div class="photo">
+                                            <img src="./asset/imag/image 505.png" alt="">
+                                        </div>
+                                        <div class="photo-info">
+                                            <p class="metarial">Metarials: Bass Wood</p>
+                                           <h6>ALF-CNT</h6>
+                                           <p class="no-return">
+                                               <span><i class="bi bi-arrow-return-left"></i></span>
+                                               <span>This item cannot be changed or return</span>
+                                           </p>
+                                        </div>
+                                    </div>
+                                    <p class="deliv"> delivery time: 21feb</p>
+                                </div>
+                                <div class="ref_p">
+                                    <div class="ref_p_info">
+                                        <div class="photo">
+                                            <img src="./asset/imag/image 505.png" alt="">
+                                        </div>
+                                        <div class="photo-info">
+                                            <p class="metarial">Metarials: Bass Wood</p>
+                                           <h6>ALF-CNT</h6>
+                                           <p class="no-return">
+                                               <span><i class="bi bi-arrow-return-left"></i></span>
+                                               <span>This item cannot be changed or return</span>
+                                           </p>
+                                        </div>
+                                    </div>
+                                    <p class="deliv"> delivery time: 21feb</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-tab-content"id="Profile">
+                            <div class="profile-heading">
+                                <h6>Profile</h6>
+                                <p>Manage your profile details</p>
+                            </div>
+                            <div class="personal-info">
+                                <p class="para-1">Personal Information</p>
+                                <div class="input-area">
+                                    <div class="inp-1">
+                                        <input type="text"placeholder="Name">
+                                        <span><i class="bi bi-person"></i></span>
+                                    </div>
+                                    <div class="inp-1">
+                                        <input type="text"placeholder="Username">
+                                        <span><i class="bi bi-person"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="personal-info">
+                                <p class="para-1">Security</p>
+                                <div class="input-area">
+                                    <div class="inp-1">
+                                        <input type="text"placeholder="Password">
+                                        <span><i class="bi bi-lock-fill"></i></span>
+                                    </div>
+                                    <div class="inp-1">
+                                        <input type="text"placeholder="Repeat password">
+                                        <span><i class="bi bi-lock-fill"></i></span>
+                                    </div>
+    
+                                </div>
+                                <div class="allow">
+                                    <p>Allow remote shopping assistance</p>
+                                    <div class="allow-select"></div>
+                                </div>
+                            </div>
+                            <div class="personal-info">
+                                <p class="para-1">Contact information</p>
+                                <div class="input-area">
+                                    <div class="inp-1">
+                                        <input type="tel"placeholder="+880 Your number">
+                                        <span><i class="bi bi-telephone"></i></span>
+                                    </div>
+                                    <div class="inp-1">
+                                        <input type="email"placeholder="Email Address">
+                                        <span><i class="bi bi-envelope"></i></span>
+                                    </div>
+    
+                                </div>
+                                <div class="allow">
+                                    <p>Recive communtication in</p>
+                                    <div class="radio-select">
+                                        <input type="radio" id="English" name="English_language" value="English">
+                                        <label for="English">English</label>
+                                        <input type="radio" id="English" name="Bangla_language" value="Bangla">
+                                        <label for="Bangla">Bangla</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-tab-content"id="Notification">
+                            <div class="tab-banner">
+                                <p>HOT DEALS</p>
+                                <h4>MIN. $1150 off</h4>
+                                <a href="#">
+                                    Discover Products
+                                    <span><i class="bi bi-arrow-right"></i></span>
+                                </a>
+                            </div>
+                            <div class="profile-heading">
+                                <h6>Notification</h6>
+                                <p>Click here to change your default refund method.</p>
+                                <button>
+                                    <span><i class="bi bi-gear-wide-connected"></i></span>
+                                    <span>Setting</span>
+                                </button>
+                            </div>
+                            <div class="n-des-box">
+                                <div class="n-iocn">
+                                    <i class="bi bi-card-text"></i>
+                                </div>
+                                <div class="n-des-content">
+                                    <h5>Title</h5>
+                                    <p>We’ve recently added Apply Pay payment options</p>
+                                    <span>05 Feb</span>
+                                </div>
+                            </div>
+                            <div class="n-des-box">
+                                <div class="n-iocn n-icon-bg">
+                                    <i class="bi bi-gear-wide"></i>
+                                </div>
+                                <div class="n-des-content">
+                                    <h5>50% OFF of everything at Legfashion Store!!</h5>
+                                    <p>We’ve recently added Apply Pay payment options</p>
+                                    <span>05 Feb</span>
+                                </div>
+                            </div>
+                            <div class="n-des-box">
+                                <div class="n-iocn">
+                                    <i class="bi bi-card-text"></i>
+                                </div>
+                                <div class="n-des-content">
+                                    <h5>Package from your order #1196205 has arrived to destination country</h5>
+                                    <p>We’ve recently added Apply Pay payment options</p>
+                                    <span>05 Feb</span>
+                                </div>
+                            </div>
+                            <div class="n-des-box">
+                                <div class="n-iocn n-icon-bg">
+                                    <i class="bi bi-card-text"></i>
+                                </div>
+                                <div class="n-des-content">
+                                    <h5>Title</h5>
+                                    <p>We’ve recently added Apply Pay payment options</p>
+                                    <span>05 Feb</span>
+                                </div>
+                            </div>
+                            <div class="n-des-box">
+                                <div class="n-iocn">
+                                    <i class="bi bi-card-text"></i>
+                                </div>
+                                <div class="n-des-content">
+                                    <h5>Title</h5>
+                                    <p>We’ve recently added Apply Pay payment options</p>
+                                    <span>05 Feb</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-tab-content">
+                            <div class="order-heading">
+                                <h6>Address</h6>
+                                <p>Add, remove and select preferred addresses</p>
+                            </div>
+                            <div class="order-stastus">
+                                <div class="order-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 16 16"><path fill="currentColor" d="M7 7V1.414a1 1 0 0 1 2 0V2h5a1 1 0 0 1 .8.4l.975 1.3a.5.5 0 0 1 0 .6L14.8 5.6a1 1 0 0 1-.8.4H9v10H7v-5H2a1 1 0 0 1-.8-.4L.225 9.3a.5.5 0 0 1 0-.6L1.2 7.4A1 1 0 0 1 2 7h5zm1 3V8H2l-.75 1L2 10h6zm0-5h6l.75-1L14 3H8v2z"/></svg>
+                                </div>
+                                <div class="order-text">
+                                    <h5>You don't have any orders yet</h5>
+                                    <p>What are you waiting for? Start shopping!</p>
+                                </div>
+                                <div class="order-button">
+                                    <button>Add new Address</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-tab-content"id="Address">
+                            <div class="profile-heading add-heading">
+                                <div class="profile-heading-c-w">
+                                    <div>
+                                        <h6>Address</h6>
+                                        <p>Add, remove and select preferred addresses</p>
+                                    </div>
+                                    <div class="add-link">
+                                        <button>+ Add new address</button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="address-content">
+                                <div class="add-h">
+                                    <div class="add-h-l">
+                                        <span><i class="bi bi-geo-alt"></i></span>
+                                        <span>Home</span>
+                                    </div>
+                                    <div class="add-h-r button-bar">
+                                        <button>
+                                            <span><i class="bi bi-pencil-square"></i></span>
+                                            <span>edit</span>
+                                        </button>
+                                        <button>
+                                            <span><i class="bi bi-trash"></i></span>
+                                            <span>delet</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="add-b">
+                                    <p>
+                                        <span>Name:</span>
+                                        <span>John Doe</span>
+                                    </p>
+                                    <p>
+                                        <span>Address:</span>
+                                        <span>Bir Uttam Samsul Alam Road, Dhaka 1205</span>
+                                    </p>
+                                    <p>
+                                        <span>Address:</span>
+                                        <span>+8801637775128</span>
+                                    </p>
+                                    <div class="fl-veri memo">
+                                        <p>
+                                            <span>
+                                                <i class="bi bi-check2"></i>
+                                                Verified
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="address-content a-c-bg">
+                                <div class="add-h">
+                                    <div class="add-h-l">
+                                        <span><i class="bi bi-geo-alt"></i></span>
+                                        <span>Office</span>
+                                    </div>
+                                    <div class="add-h-r button-bar">
+                                        <button>
+                                            <span><i class="bi bi-pencil-square"></i></span>
+                                            <span>edit</span>
+                                        </button>
+                                        <button>
+                                            <span><i class="bi bi-trash"></i></span>
+                                            <span>delet</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="add-b">
+                                    <p>
+                                        <span>Name:</span>
+                                        <span>John Doe</span>
+                                    </p>
+                                    <p>
+                                        <span>Address:</span>
+                                        <span>Bir Uttam Samsul Alam Road, Dhaka 1205</span>
+                                    </p>
+                                    <p>
+                                        <span>Address:</span>
+                                        <span>+8801637775128</span>
+                                    </p>
+                                    <div class="fl-veri memo flveri-bg">
+                                        <p>
+                                            <span>
+                                                <i class="bi bi-x"></i>
+                                                unverified
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="address-content">
+                                <div class="add-h">
+                                    <div class="add-h-l">
+                                        <span><i class="bi bi-geo-alt"></i></span>
+                                        <span>Home</span>
+                                    </div>
+                                    <div class="add-h-r button-bar">
+                                        <button>
+                                            <span><i class="bi bi-pencil-square"></i></span>
+                                            <span>edit</span>
+                                        </button>
+                                        <button>
+                                            <span><i class="bi bi-trash"></i></span>
+                                            <span>delet</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="add-b">
+                                    <p>
+                                        <span>Name:</span>
+                                        <span>John Doe</span>
+                                    </p>
+                                    <p>
+                                        <span>Address:</span>
+                                        <span>Bir Uttam Samsul Alam Road, Dhaka 1205</span>
+                                    </p>
+                                    <p>
+                                        <span>Address:</span>
+                                        <span>+8801637775128</span>
+                                    </p>
+                                    <div class="fl-veri memo">
+                                        <p>
+                                            <span>
+                                                <i class="bi bi-check2"></i>
+                                                Verified
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="address-content a-c-bg">
+                                <div class="add-h">
+                                    <div class="add-h-l">
+                                        <span><i class="bi bi-geo-alt"></i></span>
+                                        <span>Office</span>
+                                    </div>
+                                    <div class="add-h-r button-bar">
+                                        <button>
+                                            <span><i class="bi bi-pencil-square"></i></span>
+                                            <span>edit</span>
+                                        </button>
+                                        <button>
+                                            <span><i class="bi bi-trash"></i></span>
+                                            <span>delet</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="add-b">
+                                    <p>
+                                        <span>Name:</span>
+                                        <span>John Doe</span>
+                                    </p>
+                                    <p>
+                                        <span>Address:</span>
+                                        <span>Bir Uttam Samsul Alam Road, Dhaka 1205</span>
+                                    </p>
+                                    <p>
+                                        <span>Address:</span>
+                                        <span>+8801637775128</span>
+                                    </p>
+                                    <div class="fl-veri memo flveri-bg">
+                                        <p>
+                                            <span>
+                                                <i class="bi bi-x"></i>
+                                                unverified
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-tab-content"id="Reffer">
+                            <div class="profile-heading add-heading">
+                                <div class="profile-heading-c-w">
+                                    <div>
+                                        <h6>Select a Location</h6>
+                                        
+                                    </div>
+                                    <div class="add-link">
+                                        <div class="allow">
+                                            <p class="allow-p">Show me Pixicommerce lockers and collection points</p>
+                                            <div class="allow-select"id="allow-select2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="map-area">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116870.61071130022!2d90.24048814335939!3d23.740011500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b8057f4295%3A0xd3656c7eedb6a791!2sBangladesh%20Council%20of%20Scientific%20and%20Industrial%20Research%20(BCSIR)!5e0!3m2!1sen!2sbd!4v1685524845873!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <div class="map-inp-area">
+                                    <input type="text" name="" id="">
+                                    <div class="sr-icon"><i class="bi bi-search"></i></div>
+                                    <div class="gps-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm8.94 3A8.994 8.994 0 0 0 13 3.06V1h-2v2.06A8.994 8.994 0 0 0 3.06 11H1v2h2.06A8.994 8.994 0 0 0 11 20.94V23h2v-2.06A8.994 8.994 0 0 0 20.94 13H23v-2h-2.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7s7 3.13 7 7s-3.13 7-7 7z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="location-btn">
+                                <button class="lo-btn lo-btn1">Cancel</button>
+                                <button class="lo-btn lo-btn2">Confirm Location</button>
+                            </div>
+                        </div>
+                        <div class="side-tab-content"id="Wallet">
+                            <div class="tab-banner">
+                                <p>Balance</p>
+                                <h4>BDT 2000</h4>
+                                
+                            </div>
+                            <div class="profile-heading">
+                                <h6>Wallet</h6>
+                                <p>Keep track of your credit amount and transactional history.</p>
+                                <button>
+                                    <span><i class="bi bi-chevron-right"></i></span>
+                                    
+                                </button>
+                            </div>
+                            <div class="return-item r-i-bg">
+                                <div class="return-item-wrapper">
+                                    <div class="return-title">
+                                        <h5><i class="bi bi-arrow-return-left"></i>Returned item</h5>
+                                        <p class="r-date">12 june, 2019</p>
+                                    </div>
+                                    <div class="return-price">
+                                        <p class="pr-1"> BDT 63,675 /-</p>
+                                        <p class="pr-2">Balance  BDT 63,675 /-</p>
+                                    </div>
+                                </div>
+    
+                                <p class="r-des">
+                                    I love this so much. Color is spot on with the picture, a soft pinkish mocha color.
+                                </p>
+                            </div>
+                            <div class="return-item">
+                                <div class="return-item-wrapper">
+                                    <div class="return-title">
+                                        <h5><i class="bi bi-arrow-return-left"></i>Returned item</h5>
+                                        <p class="r-date">12 june, 2019</p>
+                                    </div>
+                                    <div class="return-price">
+                                        <p class="pr-1"> BDT 63,675 /-</p>
+                                        <p class="pr-2">Balance  BDT 63,675 /-</p>
+                                    </div>
+                                </div>
+    
+                                <p class="r-des">
+                                    I love this so much. Color is spot on with the picture, a soft pinkish mocha color.
+                                </p>
+                            </div>
+                            <div class="return-item r-i-bg">
+                                <div class="return-item-wrapper">
+                                    <div class="return-title">
+                                        <h5><i class="bi bi-arrow-return-left"></i>Returned item</h5>
+                                        <p class="r-date">12 june, 2019</p>
+                                    </div>
+                                    <div class="return-price">
+                                        <p class="pr-1"> BDT 63,675 /-</p>
+                                        <p class="pr-2">Balance  BDT 63,675 /-</p>
+                                    </div>
+                                </div>
+    
+                                <p class="r-des">
+                                    I love this so much. Color is spot on with the picture, a soft pinkish mocha color.
+                                </p>
+                            </div>
+                            <div class="return-item">
+                                <div class="return-item-wrapper">
+                                    <div class="return-title">
+                                        <h5><i class="bi bi-arrow-return-left"></i>Returned item</h5>
+                                        <p class="r-date">12 june, 2019</p>
+                                    </div>
+                                    <div class="return-price">
+                                        <p class="pr-1"> BDT 63,675 /-</p>
+                                        <p class="pr-2">Balance  BDT 63,675 /-</p>
+                                    </div>
+                                </div>
+    
+                                <p class="r-des">
+                                    I love this so much. Color is spot on with the picture, a soft pinkish mocha color.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="side-tab-content"id="Rreturn">
+                            <div class="profile-heading">
+                                <h6>Payments</h6>
+                                <p>Manage all your saved cards.</p>
+                            </div>
+                            <div class="pay-ifo-box r-i-bg">
+                                <div class="pay-info-h">
+                                    <div class="pay-l">
+                                        <img src="./asset/imag/Mastercard-Emblem-PNG-VECTOR.png" alt="">
+                                        <span>•••• •••• •••• 2346</span>
+                                    </div>
+                                    <div class="pay-r">
+                                        <button><i class="bi bi-trash3"></i>Delete</button>
+                                    </div>
+                                </div>
+                                <div class="pay-info-b">
+                                    <div class="name-ex">
+                                        <p>Name:<span>John Doe</span></p>
+                                        <p>Expire:<span>01 / 25</span></p>
+                                    </div>
+                                    <div class="allow pay-allow">
+                                        <p>Set as Default</p>
+                                        <div class="allow-select"id="allow-select4"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pay-ifo-box">
+                                <div class="pay-info-h">
+                                    <div class="pay-l">
+                                        <img src="./asset/imag/Mastercard-Emblem-PNG-VECTOR.png" alt="">
+                                        <span>•••• •••• •••• 2346</span>
+                                    </div>
+                                    <div class="pay-r">
+                                        <button><i class="bi bi-trash3"></i>Delete</button>
+                                    </div>
+                                </div>
+                                <div class="pay-info-b">
+                                    <div class="name-ex">
+                                        <p>Name:<span>John Doe</span></p>
+                                        <p>Expire:<span>01 / 25</span></p>
+                                    </div>
+                                    <div class="allow pay-allow">
+                                        <p>Set as Default</p>
+                                        <div class="allow-select"id="allow-select4"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pay-ifo-box r-i-bg">
+                                <div class="pay-info-h">
+                                    <div class="pay-l">
+                                        <img src="./asset/imag/Mastercard-Emblem-PNG-VECTOR.png" alt="">
+                                        <span>•••• •••• •••• 2346</span>
+                                    </div>
+                                    <div class="pay-r">
+                                        <button><i class="bi bi-trash3"></i>Delete</button>
+                                    </div>
+                                </div>
+                                <div class="pay-info-b">
+                                    <div class="name-ex">
+                                        <p>Name:<span>John Doe</span></p>
+                                        <p>Expire:<span>01 / 25</span></p>
+                                    </div>
+                                    <div class="allow pay-allow">
+                                        <p>Set as Default</p>
+                                        <div class="allow-select"id="allow-select4"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pay-ifo-box">
+                                <div class="pay-info-h">
+                                    <div class="pay-l">
+                                        <img src="./asset/imag/Mastercard-Emblem-PNG-VECTOR.png" alt="">
+                                        <span>•••• •••• •••• 2346</span>
+                                    </div>
+                                    <div class="pay-r">
+                                        <button><i class="bi bi-trash3"></i>Delete</button>
+                                    </div>
+                                </div>
+                                <div class="pay-info-b">
+                                    <div class="name-ex">
+                                        <p>Name:<span>John Doe</span></p>
+                                        <p>Expire:<span>01 / 25</span></p>
+                                    </div>
+                                    <div class="allow pay-allow">
+                                        <p>Set as Default</p>
+                                        <div class="allow-select"id="allow-select4"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-tab-content" id="Log">
+                            <div class="profile-heading">
+                                <h6>Refund Preferences</h6>
+                                <p>Click here to change your defult refund method.</p>
+                            </div>
+                            <div class="refund-card refund-bg">
+                               <div class="refund-radio">
+                                    <li><span><i class="bi bi-wallet2"></i></span>Card Refund</li>
+                                    <li><input type="radio"></li>
+                               </div>
+                               <strong>The quickest way to receive your refund from returns and cancellations as pixicommerce credit.</strong>
+                            </div>
+                            <div class="refund-card">
+                               <div class="refund-radio">
+                                    <li><span><i class="bi bi-wallet2"></i></span>Wallet Refund</li>
+                                    <li><input type="radio"></li>
+                               </div>
+                               <strong>Only applies to prepaid amounts and take up to 7-14 business days to reflect on your card. Cash payments and pixicommerce credits used to complement a card payment will be refunded to your wallet.</strong>
+                            </div>
+                            <div class="refund-card refund-bg">
+                                <div class="profile-heading border-bottom">
+                                    <h6>Color Preference</h6>
+                                    <p>Switch the toggle to change between dark and light mode.</p>
+                                </div>
+                                <div class="refund-radio border-none">
+                                    <li>Enable Dark mode</li>
+                                    <div class="allow refund-allow">
+                                        <div class="allow-select"id="allow-select5"></div>
+                                    </div>
+                               </div>
+                             </div>
+                             <div class="refund-card ">
+                                <div class="profile-heading border-bottom">
+                                    <h6>Shopping Preference</h6>
+                                    <p>Switch the toggle to change between dark and light mode.</p>
+                                </div>
+                                <div class="refund-radio border-none">
+                                    <li>Allow Remote Shopping Assistance</li>
+                                    <div class="allow refund-allow">
+                                        <div class="allow-select"id="allow-select6"></div>
+                                    </div>
+                               </div>
+                               <div class="interest-box">
+                                <p>Interested in</p>
+                                <div class="radio-select add-select">
+                                    <input type="radio" id="Men" name="Men" value="Men">
+                                    <label for="Men">Men</label>
+                                    <input type="radio" id="Women" name="Women" value="Women">
+                                    <label for="Women">Women</label>
+                                   </div>
+                               </div>
+                             </div>
+                        </div>
+                        <div class="side-tab-content"id="Reffer">
+                            <div class="profile-heading">
+                                <h6>Refund Preferences</h6>
+                                <p>Click here to change your defult refund method.</p>
+                            </div> 
+                            
+                            <div class="order-stastus pt-4 mt-3">
+                                <div class="order-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" viewBox="0 0 16 16"><path fill="currentColor" d="M14 3.7v3.7l2-1V5zM2 3.8L0 5v1.5l2 1zM11.2 2L8 0L4.8 2zM13 3H3v4.9l3.4 1.7L8 8.4l1.6 1.2L13 7.9zm3 4.6l-5.5 2.7l5.5 4.4zm-8 2L0 16h16zm-2.5.7L0 7.6v7.1z"/></svg>
+                                </div>
+                                <div class="order-text">
+                                    <h5>SAR 10 to Your Friend</h5>
+                                    <p>Your friends can just enter promotion code in checkout to get SAR 10.</p>
+                                </div>
+                                <div class="copy-btn-input">
+                                    <li class="input-li"id="input-li">
+                                        <input type="text" value="439snkcpqSssaad"id="input-1">
+                                        <span id="copybtn-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M8 10a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2z"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></g></svg></span>
+                                    </li>
+                                    <p>or share this link</p>
+                                    <li class="input-li2"id="input-li2">
+                                        <input type="text"value="findilm.com/u35956/refer/22354"id="input-2">
+                                        <button id="copybtn-2">Copy</button>
+                                    </li>
+                                </div>
+                                <div class="social-link">
+                                    <p>Share via</p>
+                                    <ul class="f-list s-l-list">
+                                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-telegram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cl-lg-4 cl-cart-right">
+                    <div class="cart_list">
+                        <div class="cart_list_heading">
+                            <p>Cart</p>
+                            <div class="cart_list_icon">
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+                        </div>
+                        <div class="cart_list_box">
+                           <div class="c_l_wrapper">
+                                <div class="c_l_ph">
+                                    <img src="./asset/imag/image 505.png" alt="">
+                                </div>
+                                <div class="c_l_ph_info">
+                                    <span>Mehogoni Wood </span>
+                                    <p class="ph_infocode">AFL-BED-164</p>
+                                    <span class="ph_infosize">Size: 30 X 30 X 18</span>
+                                    <p class="price">BDT 63,675 /-</p>
+                                </div>
+                           </div>
+                           <div class="button-bar">
+                                <button>
+                                    <span><i class="bi bi-trash"></i></span>
+                                    <span>delet</span>
+                                </button>
+                                <button>
+                                    <span><i class="bi bi-suit-heart"></i></span>
+                                    <span>move to wishlist</span>
+                                </button>
+                                <button>
+                                    <span><i class="bi bi-pencil-square"></i></span>
+                                    <span>edit</span>
+                                </button>
+                                <div class="c-b">
+                                    <span>-</span>
+                                    <span class="middle">1</span>
+                                    <span>+</span>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="cart_list_box">
+                            <div class="c_l_wrapper">
+                                 <div class="c_l_ph">
+                                     <img src="./asset/imag/image 505.png" alt="">
+                                 </div>
+                                 <div class="c_l_ph_info">
+                                     <span>Mehogoni Wood </span>
+                                     <p class="ph_infocode">AFL-BED-164</p>
+                                     <span class="ph_infosize">Size: 30 X 30 X 18</span>
+                                     <p class="price">BDT 63,675 /-</p>
+                                 </div>
+                            </div>
+                            <div class="button-bar">
+                                 <button>
+                                     <span><i class="bi bi-trash"></i></span>
+                                     <span>delet</span>
+                                 </button>
+                                 <button>
+                                     <span><i class="bi bi-suit-heart"></i></span>
+                                     <span>move to wishlist</span>
+                                 </button>
+                                 <button>
+                                     <span><i class="bi bi-pencil-square"></i></span>
+                                     <span>edit</span>
+                                 </button>
+                                 <div class="c-b">
+                                     <span>-</span>
+                                     <span class="middle">1</span>
+                                     <span>+</span>
+                                 </div>
+                            </div>
+                         </div>
+                         <div class="cart_list_box">
+                            <div class="c_l_wrapper">
+                                 <div class="c_l_ph">
+                                     <img src="./asset/imag/image 505.png" alt="">
+                                 </div>
+                                 <div class="c_l_ph_info">
+                                     <span>Mehogoni Wood </span>
+                                     <p class="ph_infocode">AFL-BED-164</p>
+                                     <span class="ph_infosize">Size: 30 X 30 X 18</span>
+                                     <p class="price">BDT 63,675 /-</p>
+                                 </div>
+                            </div>
+                            <div class="button-bar">
+                                 <button>
+                                     <span><i class="bi bi-trash"></i></span>
+                                     <span>delet</span>
+                                 </button>
+                                 <button>
+                                     <span><i class="bi bi-suit-heart"></i></span>
+                                     <span>move to wishlist</span>
+                                 </button>
+                                 <button>
+                                     <span><i class="bi bi-pencil-square"></i></span>
+                                     <span>edit</span>
+                                 </button>
+                                 <div class="c-b">
+                                     <span>-</span>
+                                     <span class="middle">1</span>
+                                     <span>+</span>
+                                 </div>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="copoun-area">
+                        <div class="promotional-area">
+                            <h5>Promotional Coupon</h5>
+                            <form action="">
+                                <input type="text">
+                                <button>Apply</button>
+                            </form>
+                            <div class="valid-copoun">
+                                <p><i class="bi bi-tags"></i>Coupon code valid!</p>
+                            </div>
+                        </div>
+                        <div class="summary-area">
+                            <p class="sum-p">summary</p>
+                            <div class="sub-total">
+                                <p>Subtotal(5 item)</p>
+                                <p>  BDT 63,675 /-</p>
+                            </div>
+                            <div class="discount">
+                                <p>discount</p>
+                                <p>BDT 63,675 /-</p>
+                            </div>
+                            <div class="total">
+                                <p>Total</p>
+                                <p>BDT 63,675 /-</p>
+                            </div>
+                            <div class="btn-area c_btn-area">
+                                <button onclick="document.location='cart-w.html'">View Cart</button>
+                                <button onclick="document.location='choose.html'">Checkout</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer-section-10 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-content">
+                    <div class="help-center">
+                        <div class="icon"><i class="bi bi-question-circle"></i></div>
+                        <div class="help-text">
+                            <span>Help Center</span>
+                            <p>help@akhtarfurnishers.com</p>
+                        </div>
+                    </div>
+                    <div class="emai help-center">
+                        <div class="icon"><i class="bi bi-envelope-open"></i></div>
+                        <div class="help-text">
+                            <span>Email  Support</span>
+                            <p>info@akhtarfurnishers.com</p>
+                        </div>
+                    </div>
+                    <div class="phone help-center">
+                        <div class="icon"><i class="bi bi-telephone"></i></div>
+                        <div class="help-text">
+                            <span>Phone</span>
+                            <p>0147-004700</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-content">
+                    <div class="logo-1">
+                        <img src="./asset/imag/image 50.png" alt="">
+                        <img src="./asset/imag/image 51.png" alt="">
+                    </div>
+                    <div class="logo-1">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="f-b-content">
+                    <p>Terms of Use  -  Privacy Policy  -  Terms of Return</p>
+                    <ul class="f-list">
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    </ul>
+                    <p>© 2021 AKHTAR. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./asset/js/index.js"></script>
+    <script src="./asset/js/tab.js"></script>
+    <script src="./asset/js/acc-o.js"></script>
+</body>
+</html>

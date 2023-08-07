@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>furniture</title>
+    <!-- bootstrap-cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- swiper-css -->
+    <link rel="stylesheet" href="./asset/css/swiper-bundle.min.css">
+    <!-- custom-css -->
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <!-- header-section-1 -->
+    <header>
+        <div class="navbar-1">
+        
+                <div class="container navline-1">
+                    <div class="nleft-1">
+                        <span>ship to</span>
+                        <div class="selector">
+                            <div id="selector-field">
+                                <div class="select-text" id="text-area">
+                                    <img src="./asset/imag/af-flag.gif" alt=""  width="20" height="15">
+                                    <span>afganistan</span>
+                                </div>
+                                <span><i class="bi bi-chevron-down"></i></span>
+                            </div>
+                            <ul id="list" class="hide">
+                                <li class="option">
+                                    <img src="./asset/imag/ag-flag.gif" alt="" width="20" height="15">
+                                    <span>argentina</span>
+                                </li>
+                                <li class="option">
+                                    <img src="./asset/imag/bg-flag.gif" alt="" width="20" height="15">
+                                    <span>bangladesh</span>
+                                </li>
+                                <li class="option">
+                                    <img src="./asset/imag/id-flag.gif" alt="" width="20" height="15">
+                                    <span>indonesia</span>
+                                </li>
+                                <li class="option">
+                                    <img src="./asset/imag/in-flag.gif" alt="" width="20" height="15">
+                                    <span>india</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nright-1">
+                        <ul>
+                            <li class="nr-icon">
+                                <span>
+                                    <i class="bi bi-truck"></i>
+                                </span>
+                                <span>trusted shipping</span>
+                            </li>
+                            <li class="nr-icon">
+                                <span>
+                                    <i class="bi bi-arrow-90deg-left"></i>
+                                </span>
+                                <span>easy returns</span>
+                            </li>
+                            <li class="nr-icon">
+                                <span>
+                                    <i class="bi bi-shield-check"></i>
+                                </span>
+
+                                <span>secrue shopping</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="navbar-2">
+            <div class="container">
+                <div class="navline-2">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="./asset/imag/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search-area">
+                        <form action="#" class='nav-form'>
+                            <input type="text" placeholder="what are looking for?">
+                            <span class="search-icon"><i class="bi bi-search"></i></span>
+                        </form>
+                    </div>
+                    <div class="nicon-area">
+                        <a href="cart.html">
+                            <span>
+                                <i class="bi bi-bag"></i>
+                                <div class="circle">2</div>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span>
+                                <i class="bi bi-heart"></i>
+                                <div class="circle"></div>
+                            </span>
+                        </a>
+                        
+                    </div>
+                    <!-- mobile-menu -->
+                    <div class="offcanvas-wrapper">
+                        <div class="offcanvas" id="offcanvas">
+                            <div class="offcanvas-header">
+                              <div class="offcanvas-logo">
+                                 <div class="logo">
+                                     <a href="#">
+                                         <img src="./asset/imag/logo.png" alt="">
+                                     </a>
+                                 </div>
+                              </div>
+                              <div class="close-offcanvas">
+                                 <button id="close-btn"><i class="bi bi-x-lg"></i></button>
+                              </div>
+                            </div>
+                            <div class="offcanvas-body">
+                                 <ul class="nav-list offcanvas-list">
+                                     <li>
+                                         <a href="#">
+                                             All categories<span><i class="bi bi-chevron-down"></i></span>
+                                         </a>
+                                         <ul class="drop-down">
+                                             <li><a href="#">drop-down</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                         </ul>
+                                     </li>
+                                     <li><a href="#">What’s new</a></li>
+                                     <li><a href="#">Trending</a></li>
+                                     <li><a href="#">Products</a></li>
+                                     <li><a href="#">Shop</a></li>
+                                 </ul>
+                                 <div class="nac offnac">
+                                     <li>
+                                         <a href="#" class="nac-icon">
+                                             <span><i class="bi bi-person-fill"></i></span>
+                                             <span><i class="bi bi-chevron-down"></i></span>
+                                         </a>
+                                         <a href="#" id="search-box" class="nac-icon">
+                                            <i class="bi bi-search"></i>
+                                         </a>
+                                         <ul class="drop-down">
+                                             <li><a href="#">profile</a></li>
+                                             <li><a href="#">log-out</a></li>
+                                             <li><a href="#">settings</a></li>
+                                             <li><a href="#">drop-down</a></li>
+                                         </ul>
+                                     </li>
+                                 </div>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="hamburger-icon" id="offcanvas-open">
+                        <span class="line line-1"></span>
+                        <span class="line line-2"></span>
+                        <span class="line line-3"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-3">
+            <div class="container">
+                <div class="navline-3 align-center">
+                    <div class="acc-bread-crumb">
+                        <i class="bi bi-chevron-left"></i>
+                        <a href="cart.html">Back to cart</a>
+                    </div>
+                    <div class="s-checkout">
+                        <button>Secure Checkout</button>
+                        <div class="te3l">
+                            <span><i class="bi bi-telephone"></i></span>
+                            <div class="tenl">
+                                <small>For assistance</small>
+                                <p>call 800-1160210</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal & modalbackground -->
+        
+            <div id="modal-container" class="modal-container">
+                <div id="modal" class="modal">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search product</h5>
+                        <button type="button" class="btn-close" id="modalclose-btn">&times;</button>
+                    </div>
+        
+                    <div class="modal-body">
+                        <input type="text" placeholder="search-here">
+                    </div>
+        
+                    <div class="modal-footer">
+                        <button type="button" class="search-btn">Search</button>
+                    </div>
+                </div>
+                
+           </div>
+
+    </header>
+    <section class="payment">
+        <div class="container">
+            <div class="profile-heading add-heading">
+                <div class="s-p-c">
+                    <div class="sop-box">
+                        <span class="active"><i class="bi bi-geo-alt"></i></span>
+                        <span class="active">Shipping Addrress</span>
+                    </div>
+                    <div class="pay-box sop-box">
+                        <span class="active"><i class="bi bi-wallet2"></i></span>
+                        <span>Payment</span>
+                    </div>
+                    <div class="confirm-box sop-box">
+                        <span class="active"><i class="bi bi-gear-wide-connected"></i></span>
+                        <span>Confirmation</span>
+                    </div>
+                </div>
+                <div class="profile-heading-c-w">
+                    <div>
+                        <h6>Review Order and Payment</h6>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="my-row">
+                <div class="cl-lg-6">
+                    <div class="address-content">
+                        <div class="add-h">
+                            <div class="add-h-l">
+                                <span><i class="bi bi-geo-alt"></i></span>
+                                <span>Home</span>
+                            </div>
+                            <div class="add-h-r button-bar">
+                                <button>
+                                    <span><i class="bi bi-pencil-square"></i></span>
+                                    <span>edit</span>
+                                </button>
+                                <button>
+                                    <span><i class="bi bi-trash"></i></span>
+                                    <span>delet</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="add-b">
+                            <p>
+                                <span>Name:</span>
+                                <span>John Doe</span>
+                            </p>
+                            <p>
+                                <span>Address:</span>
+                                <span>Bir Uttam Samsul Alam Road, Dhaka 1205</span>
+                            </p>
+                            <p>
+                                <span>Address:</span>
+                                <span>+8801637775128</span>
+                            </p>
+                            <div class="fl-veri memo">
+                                <p>
+                                    <span>
+                                        <i class="bi bi-check2"></i>
+                                        Verified
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="payment-method pt-2 pb-2">
+                        <h6>Payment method</h6>
+                        <div class="radio-box">
+                            <div class="radio-btn">
+                                <input type="radio" id="card" value="card">
+                                <label for="card">Pay with Card</label><br>
+                            </div>
+                            <button>
+                                + Add new Card
+                            </button>
+                        </div>
+                        <div class="p-input-area">
+                            <div class="input-p-box">
+                                <input type="text"placeholder="Ends with 3564">
+                                <img src="./asset/imag/visa.png" alt="">
+                            </div>
+                            <div class="input-p-box">
+                                <input type="text"placeholder="Ends with 3564">
+                                <img src="./asset/imag/visa.png" alt="">
+                            </div>
+                            <div class="input-p-box">
+                                <input type="text"placeholder="Ends with 3564">
+                                <img src="./asset/imag/visa.png" alt="">
+                            </div>
+                            
+                        </div>
+                        <div class="radio-btn21 mt-1">
+                            <input type="radio" id="card" value="card">
+                            <label for="card">Pay with Card</label><br>
+                        </div>
+                    </div>
+                    <div class="r-o-p">
+                        <p>Review your Order</p>
+                        <div class="o_ref_p_info">
+                            <div class="photo o_photo">
+                                <img src="./asset/imag/image 505.png" alt="">
+                            </div>
+                            <div class="photo-info o_p_info">
+                                <div class="p_metarial">
+                                    <span class="Materials">Materials:Teak Wood</span>
+                                    <span class="price"> BDT 49,469 /-</span>
+                                 </div>
+                                 <div class="p_code">
+                                    <span class="p_code_s">AFL-CNT-461</span>
+                                    <span class="p_code_q">QTY: 1</span>
+                                 </div>
+                               <div class="return-poli">
+                                    <p class="no-return">
+                                        <span><i class="bi bi-arrow-return-left"></i></span>
+                                        <span>This item cannot be changed or return</span>
+                                    </p>
+                                    
+                               </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="cl-lg-6">
+                    <div class="add-link">
+                        <div class="allow">
+                            <div class="credit-box d-flex">
+                                <div class="credit-img">
+                                    <img src="./asset/imag/Fill-194.png" alt="">
+                                </div>
+                                <div class="credit-txt">
+                                    <h6>Use Credit for this purchase</h6>
+                                    <p>Available Balance: <span> BDT 4000</span></p>
+                                </div>
+                            </div>
+                            <div class="allow-select"id="allow-select8"></div>
+                        </div>
+                        <p>Your Pixicommerce credit are not sufficient to pay for the order, please select an additional payment method to cover the balance of SAR 500</p>
+                    </div>
+                    <div class="add-link mt-3">
+                        <div class="allow">
+                            <div class="credit-box d-flex">
+                                <div class="credit-img">
+                                    <img src="./asset/imag/Fill-194.png" alt="">
+                                </div>
+                                <div class="credit-txt">
+                                    <h6>Use Credit for this purchase</h6>
+                                    <p>Available Balance: <span> BDT 4000</span></p>
+                                </div>
+                            </div>
+                            <div class="allow-select"id="allow-select9"></div>
+                        </div>
+                        <p>Your Pixicommerce credit are not sufficient to pay for the order, please select an additional payment method to cover the balance of SAR 500</p>
+                    </div>
+                    <div class="summary-area o_summary">
+                        <p class="sum-p">Order summary</p>
+                        <div class="sub-total">
+                            <p>Subtotal(5 item)</p>
+                            <p>  BDT 63,675 /-</p>
+                        </div>
+                        <div class="shipping-fee">
+                            <p>Shipping-fee</p>
+                            <p>Free</p>
+                        </div>
+                        <div class="discount">
+                            <p>Discount</p>
+                            <p>BDT 63,675 /-</p>
+                        </div>
+                        <div class="total">
+                            <p>Total</p>
+                            <p>BDT 63,675 /-</p>
+                        </div>
+                        <div class="total t-VAT">
+                            <p>Estimated VAT</p>
+                            <p>BDT 63,675 /-</p>
+                        </div>
+                    </div>
+                    <div class="location-btn">
+                        <button class="lo-btn lo-btn1">Place Order</button>
+                        <button class="lo-btn lo-btn2"onclick="location.href='add-card.html'">Pay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer-section-10 -->
+    <footer class="">
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-content">
+                    <div class="help-center">
+                        <div class="icon"><i class="bi bi-question-circle"></i></div>
+                        <div class="help-text">
+                            <span>Help Center</span>
+                            <p>help@akhtarfurnishers.com</p>
+                        </div>
+                    </div>
+                    <div class="emai help-center">
+                        <div class="icon"><i class="bi bi-envelope-open"></i></div>
+                        <div class="help-text">
+                            <span>Email  Support</span>
+                            <p>info@akhtarfurnishers.com</p>
+                        </div>
+                    </div>
+                    <div class="phone help-center">
+                        <div class="icon"><i class="bi bi-telephone"></i></div>
+                        <div class="help-text">
+                            <span>Phone</span>
+                            <p>0147-004700</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-content">
+                    <div class="logo-1">
+                        <img src="./asset/imag/image 50.png" alt="">
+                        <img src="./asset/imag/image 51.png" alt="">
+                    </div>
+                    <div class="logo-1">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="f-b-content">
+                    <p>Terms of Use  -  Privacy Policy  -  Terms of Return</p>
+                    <ul class="f-list">
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    </ul>
+                    <p>© 2021 AKHTAR. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./asset/js/index.js"></script>
+    <script>
+        const allowSelect8 = document.getElementById('allow-select8');
+            allowSelect8.addEventListener('click',()=>{
+            allowSelect8.classList.toggle('active');
+        });
+        const allowSelect9 = document.getElementById('allow-select9');
+            allowSelect9.addEventListener('click',()=>{
+            allowSelect9.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
