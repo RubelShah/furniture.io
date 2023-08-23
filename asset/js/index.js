@@ -82,3 +82,22 @@ Searchlist.forEach(function(item){
   });
  
 });
+/*****************************m-menu-accordian**********************************/
+const mlink = document.querySelector('#m-link');
+const listli = document.querySelector('#list-li');
+mlink.addEventListener('click',()=>{
+  listli.classList.toggle('active');
+});
+
+const chMlink = document.querySelectorAll('.ch-m-link');
+chMlink.forEach((item)=>{
+  item.addEventListener('click',function(){
+    if(item.classList.contains('active')){
+      item.classList.remove('active');
+    }else{
+      item.classList.add('active');
+    }
+    // this.classList.toggle('active');
+    listli.classList.toggle('active-2');
+  })
+})
