@@ -85,19 +85,39 @@ Searchlist.forEach(function(item){
 /*****************************m-menu-accordian**********************************/
 const mlink = document.querySelector('#m-link');
 const listli = document.querySelector('#list-li');
+const mList = document.querySelector('.m-list');
 mlink.addEventListener('click',()=>{
   listli.classList.toggle('active');
+  //  if(listli.classList.contains('active')){
+  //   mList.style.height = `${mList.scrollHeight}px`;
+  //  }else{
+  //   mList.style.height = '0px';
+  //  }
+  if(listli.classList.contains('active-2')){
+    listli.classList.remove('active-2');
+  }
+ for(element of chMlink){
+    if(element.classList.contains('active')){
+      element.classList.remove('active');
+    }
+ }
 });
 
 const chMlink = document.querySelectorAll('.ch-m-link');
-chMlink.forEach((item)=>{
+const chMul = document.querySelector('.ch-m-ul');
+chMlink.forEach((item,index)=>{
   item.addEventListener('click',function(){
-    if(item.classList.contains('active')){
-      item.classList.remove('active');
-    }else{
-      item.classList.add('active');
-    }
-    // this.classList.toggle('active');
-    listli.classList.toggle('active-2');
+    this.classList.toggle('active');
+
+    listli.classList.add('active-2');
+    removeActive(index);
   })
 })
+
+function removeActive(index1){
+  chMlink.forEach((item2,index2)=>{
+    if(index1 != index2){
+      item2.classList.remove('active')
+    }
+  })
+}

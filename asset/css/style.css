@@ -676,6 +676,11 @@ form input:focus{
 }
 .nav-list li{
     position: relative;
+    
+}
+.off-nav-li{
+    padding: 5px;
+    border-bottom: 1px solid #f6f6f6;
 }
 .nav-list>li>a,.m-list .ch-m-link a,.ch-m-ul li a{
     text-decoration: none;
@@ -4143,28 +4148,38 @@ form input:focus{
   .m-list{
     padding: 0 10px;
     height: 0px;
-    visibility: hidden;
+    /* visibility: hidden; */
     transition: 0.5s;
     overflow: hidden;
   }
   #list-li.active .m-list{
-    height: 50vh;
-    visibility: visible;
+    height: 150px;
+    /* visibility: visible; */
     overflow-y: auto;
+  } 
+
+  #list-li.active-2 .m-list{
+    height: 230px;
   }
-  /* #list-li.active-2 .m-list{
-    height: 50vh;
-  } */
   .ch-m-ul{
     height: 0px;
-    visibility: hidden;
+    /* visibility: hidden; */
     transition: 0.5s;
     overflow: hidden;
   }
+  .ch-m-link{
+    padding: 5px;
+    border-bottom: 1px solid #f6f6f6;
+  }
+  .ch-m-link>a{
+    display: flex;
+    justify-content: space-between;
+  }
   .ch-m-link.active .ch-m-ul{
     height: 120px;
-    visibility: visible;
+    /* visibility: visible; */
   }
+
 /*********************************** responsive-css **************************************/
 @media(max-width: 576px){
     .sop-box span {
