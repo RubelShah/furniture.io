@@ -882,6 +882,9 @@ form input:focus{
     color: #EDA02F;
     border-left: 2px solid #EDA02F;
 }
+.nac.offnac{
+    margin-top: 20px;
+}
 /************************************category-section-css*****************************************************/
 .swiper-slide{
     background: #fff;
@@ -1195,7 +1198,7 @@ form input:focus{
     position: fixed;
     background:rgba(66, 64, 64,0.8);
     transition: 0.2s;
-    z-index: 9;
+    z-index: 13;
     left: 0;
     top: 0;
 }
@@ -4176,7 +4179,7 @@ form input:focus{
     justify-content: space-between;
   }
   .ch-m-link.active .ch-m-ul{
-    height: 120px;
+    height: auto;
     /* visibility: visible; */
   }
 

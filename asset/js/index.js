@@ -88,11 +88,6 @@ const listli = document.querySelector('#list-li');
 const mList = document.querySelector('.m-list');
 mlink.addEventListener('click',()=>{
   listli.classList.toggle('active');
-  //  if(listli.classList.contains('active')){
-  //   mList.style.height = `${mList.scrollHeight}px`;
-  //  }else{
-  //   mList.style.height = '0px';
-  //  }
   if(listli.classList.contains('active-2')){
     listli.classList.remove('active-2');
   }
@@ -107,17 +102,23 @@ const chMlink = document.querySelectorAll('.ch-m-link');
 const chMul = document.querySelector('.ch-m-ul');
 chMlink.forEach((item,index)=>{
   item.addEventListener('click',function(){
-    this.classList.toggle('active');
-
+    for(let i = 0; i < chMlink.length; i++){
+      if(chMlink[i] != item){
+        chMlink[i].classList.remove('active');
+      }
+      else{
+        this.classList.toggle('active');
+      }
+    }
     listli.classList.add('active-2');
-    removeActive(index);
+    // removeActive(index);
   })
 })
 
-function removeActive(index1){
-  chMlink.forEach((item2,index2)=>{
-    if(index1 != index2){
-      item2.classList.remove('active')
-    }
-  })
-}
+// function removeActive(index1){
+//   chMlink.forEach((item2,index2)=>{
+//     if(index1 != index2){
+//       item2.classList.remove('active')
+//     }
+//   })
+// }
